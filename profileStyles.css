@@ -1,0 +1,96 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightblue;
+    color: rgb(4, 11, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter
+}
+
+li {
+    font-size: 2rem;
+    color: dodgerblue;
+}
+
+h1 {
+    font-size: 3rem;
+    color: hotpink;
+}
+
+#subtitle {
+    font-size: 1.5rem;
+    color: dimgray;
+    font-style: normal;
+}
+
+.box1 {
+    background-color: whitesmoke;
+    padding: 0% 10%;
+    margin: 10px;
+    border: 4px groove red;
+}
+
+.box2 {
+    background-color: antiquewhite;
+    margin: 0px 10px;
+    padding: 0% 10%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+hr {
+    margin: 1rem 0px;
+}
+
+.box1 h2 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.circle-crop {
+    border-radius: 50%;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-nav {
+    background: #06E6FF
+}
+    .main-nav li {
+        list-style-type: none;
+        width: max(30%, 200px);
+        text-align: center;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+    a:hover {
+        color: green;
+    }
